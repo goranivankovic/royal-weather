@@ -80,7 +80,7 @@
   @media only screen and (max-width: 770px) {
 
 	.mainWeatherDiv{
-		height: 260vh;
+		height: 280vh;
 		width: 100%;
 		background-color:black;
 		font-family: 'Source Code Pro', monospace;
