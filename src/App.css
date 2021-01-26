@@ -87,6 +87,18 @@
 		
 	}
 
+	.fiveDaysDiv{
+		position: absolute;
+		top: 60%;
+		height: 50%;
+		width: 100%;
+		/* border: 2px solid blue; */
+		font-family: 'Handlee', cursive;
+		display: flex;
+		justify-content: space-around;
+	
+	}
+
 	
 	
 
