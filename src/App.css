@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+*{
+	margin: 0%;
+	padding: 0%;
+}
+ .mainWeatherDiv{
+	height: 100vh;
+	width: 100%;
+	background-color:black;
+	font-family: 'Source Code Pro', monospace;
+	
+}
+
+.slika{
+	height: 100%;
+	width: 100%;
+}
+.weatherNav{
+	position: absolute;
+	top: 1%;
+	height: 5%;
+	width: 100%;
+
+
+}
+.weatherHouers{
+	position: absolute;
+	top: 6%;
+	height: 24%;
+	width: 100%;
+	/* border: 2px solid RED; */
+
+}
+
+.fiveDaysDiv{
+	position: absolute;
+	top: 50%;
+	height: 50%;
+	width: 100%;
+	/* border: 2px solid blue; */
+	font-family: 'Handlee', cursive;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.fiveDasysDivRows{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+.inputClassValue{
+	z-index: 200;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+	.mainWeatherDiv{
+		height: 180vh;
+		width: 100%;
+		background-color:black;
+		font-family: 'Source Code Pro', monospace;
+		
+	}
+
+	
+	
+
+  }
+
+  @media only screen and (max-width: 770px) {
+
+	.mainWeatherDiv{
+		height: 260vh;
+		width: 100%;
+		background-color:black;
+		font-family: 'Source Code Pro', monospace;
+		
+	}
+
+	
+	
+
+  }
+
