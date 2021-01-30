@@ -8,7 +8,7 @@ import axios from 'axios';
 
 
 
-const x =['novi sad','zagreb','madrid','maribor','podgorica','belgrad']
+const x =['novi sad','maribor','podgorica','belgrad']
 
 const t =Math.floor(Math.random()*x.length)
 
